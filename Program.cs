@@ -23,9 +23,7 @@
             int wordCount = text.Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries).Length;
 
             // Формирование результатов
-            string results = $"Количество символов: {totalCharacters}\n" +
-                             $"Количество символов без пробелов: {charactersWithoutSpaces}\n" +
-                             $"Количество слов: {wordCount}";
+            string results = $"Количество символов: {totalCharacters}\n" + $"Количество символов без пробелов: {charactersWithoutSpaces}\n" + $"Количество слов: {wordCount}";
 
             // Вывод результатов в консоль
             Console.WriteLine(results);
